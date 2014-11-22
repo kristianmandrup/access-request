@@ -1,4 +1,4 @@
 module.exports =
   fingerprint:    require './fingerprint'
-  matcher:        require './matcher'
   util:           require './util'
+  AccessRequest:  require './access_request'
