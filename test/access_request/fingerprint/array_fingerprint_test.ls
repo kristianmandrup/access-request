@@ -1,11 +1,9 @@
-requires  = require '../../../../requires'
+require '../../test_setup'
 
-requires.test 'test_setup'
-
-Book            = requires.fix 'book'
-AccessRequest   = requires.lib 'access-request' .AccessRequest
-
-fingerprint     = requires.lib 'access-request' .fingerprint
+Book            = require '../../fixtures/book'
+index           = require '../../../'
+AccessRequest   = index.AccessRequest
+fingerprint     = index.fingerprint
 FingerPrinter   = fingerprint.ArrayFingerPrint
 
 describe 'ArrayFingerPrint' ->
