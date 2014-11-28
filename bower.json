@@ -1,25 +1,21 @@
 {
-  "name": "permit-authorize",
+  "name": "access-request",
   "main": [
-    "dist/permit-authorize.js",
-    "dist/permit-authorize.min.js"
+    "index.js"
   ],
-  "version": "0.6.1",
-  "homepage": "https://github.com/kristianmandrup/permit-authorize",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kristianmandrup/access-request",
   "authors": [
     "Kristian Mandrup <kmandrup@gmail.com>"
   ],
-  "description": "Authorization using permits",
+  "description": "Access Request for authorization libs",
   "keywords": [
     "auth",
     "authorize",
     "authorization",
-    "permits",
-    "permit",
-    "rules",
-    "users",
-    "roles",
-    "security"
+    "access",
+    "request",
+    "permission"
   ],
   "license": "MIT",
   "ignore": [
