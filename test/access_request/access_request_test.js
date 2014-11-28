@@ -3,7 +3,11 @@
   var index, Book, AccessRequest;
   require('../test_setup');
   index = require('../../');
-  Book = require('../fixtures/book');
+  Book = function(title){
+    return {
+      title: title
+    };
+  };
   AccessRequest = index.AccessRequest;
   describe('AccessRequest', function(){
     var book, accessRequest, requests;

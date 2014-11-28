@@ -1,2 +1,2 @@
 module.exports =
-  AccessRequest:  require './access_request'
+  AccessRequest:  require './access-request'
