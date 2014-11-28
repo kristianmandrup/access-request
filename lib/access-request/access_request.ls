@@ -1,6 +1,6 @@
 normalize     = require '../util' .normalize
 Debugger      = require '../util' .Debugger
-FingerPrinter = require './fingerprint' .FingerPrinter
+FingerPrinter = require 'fingerprint' .fingerprint.FingerPrinter
 
 module.exports = class AccessRequest implements Debugger
   # factory method

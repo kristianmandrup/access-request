@@ -1,9 +1,9 @@
 {
-  "name": "permits",
+  "name": "access-request",
   "version": "0.6.0",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/kristianmandrup/permits.git"
+    "url":  "https://github.com/kristianmandrup/access-request.git"
   },
   "keywords": [
     "authorize",
@@ -30,11 +30,10 @@
     "sleep":                    "x",
     "LiveScript":               "x",
     "browserify":               "x",
-    "es6ify":                   "x",
     "mocha":                    "x",
     "chai":                     "x",
     "util":                     "x",
-    "expect.js":                "x",
+    "fingerprint":              "kristianmandrup/fingerprint#master",
     "should":                   "x",
     "istanbul":                 "x",
     "grunt":                    "x",

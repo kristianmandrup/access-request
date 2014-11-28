@@ -1,7 +1,7 @@
 require '../test_setup'
-
+index           = require '../../'
 Book            = require '../fixtures/book'
-AccessRequest   = require '../../' .AccessRequest
+AccessRequest   =  index.AccessRequest
 
 describe 'AccessRequest' ->
   var book, access-request
