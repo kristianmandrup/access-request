@@ -1,5 +1,7 @@
 # Access Request
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/access-request.svg)](https://greenkeeper.io/)
+
 Access Request that can be used in authorization libraries such as [permit-authorize](https://github.com/kristianmandrup/permit-authorize)
 
 ## Usage
